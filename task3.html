@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+<meta charset="UFT-8"/>
+<meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+<title> sheet</title>
+<style>
+    /*universal selectors*/
+    /*it is used to target whole document in on go*/
+
+    *{
+        color : purple;
+        font-style:bold;
+        text-align:center;
+        text-transform:capitalize;
+    }
+    h1
+    {
+        color:greenyellow;
+        text-transform:capitalize;
+    }
+    p{
+       color:violet;
+    }
+    h2{
+        color:purple;
+        font-style: bold;
+    }
+    h3{
+        color:blueviolet;
+        font-style:italic;
+    }
+    #heading1{
+        color:red;
+    }
+    #heading2
+    {
+        color:green;
+        font-style:bold;
+    }
+    .para{
+        color:brown;
+        font-style: oblique;
+    }*/
+   /* group selector*/
+   h1,p{
+    color:red;
+   }
+
+   div p{
+    color:purple;
+   }
+
+ 
+h1~p{
+    color:violet;
+    font-style: italic;
+    text-align:center;
+    background-color: yellow;
+}
+</style>
+<body>
+    <div>
+        <center><h1>this is css class</h1></center>
+    </div>
+    <center><h3>this is the html classes</h3></center>
+    
+<div>
+    <p>this is the direct child that we will target</p>
+    <div>
+        <p>this is nested child that we will target</p>
+    </div>
+</div>
+<span>span is not in div</span>
+<div>
+    <span>span with in the div</span>
+</div>
+<h1>heading</h1>
+<p>paragraphp1</p>
+<p>paragraphp2</p>
+<p>paragraphp3</p>
+<h1>unorderes list:</h1>
+    <ul>
+    <li>para1</li>
+    <li>para2</li>
+    <li>para3</li>
+    <li>para4</li>
+    <li>para5</li>
+    <li>para6</li>
+</ul>
+
+</body>
+</head>
+</html>
